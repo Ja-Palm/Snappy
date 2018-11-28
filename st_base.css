@@ -1,35 +1,27 @@
 @charset "utf-8";
-
-
-
-
 html {
 	background: fixed;
 	background-image: url("st_court.png");
 	background-size: cover;
-	width: 100%
-	;
+	width: 100%;
 }
-
 /* body styles */
 
 body {
 	width: 100%;
-    min-width: 360px;
-    max-width: 900px;
+	min-width: 360px;
+	max-width: 900px;
 	min-height: 900px;
 	font-family: Verdana, Geneva, sans-serif;
 	margin-left: auto;
 	margin-right: auto;
 	background-color: transparent;
 }
-
 header {
-   float: left;
-   border-bottom: 2px solid rgb(0,0,154);
-   width: 100%;
+	float: left;
+	border-bottom: 2px solid rgb(0, 0, 154);
+	width: 100%;
 }
-
 h1 {
 	display: block;
 	margin-left: 5px;
@@ -37,18 +29,16 @@ h1 {
 	width: 50%;
 	padding-bottom: 5px;
 }
-
 /* navigation styles */
 
 nav#siteNav li {
-   float: left;
-   margin: auto;
-   color: black;
-   display: block;
-   width: 20%;
-   text-align: center;
+	float: left;
+	margin: auto;
+	color: black;
+	display: block;
+	width: 20%;
+	text-align: center;
 }
-
 nav#siteNav a {
 	height: 21px;
 	line-height: 21px;
@@ -56,22 +46,19 @@ nav#siteNav a {
 	Background-color: #3F48CC;
 	display: block;
 }
-
 nav#siteNav ul {
 	Width: 840px;
-	border-left: 1px solid rgb(0,0,154);
-	border-right: 1px solid rgb(0,0,154);
+	border-left: 1px solid rgb(0, 0, 154);
+	border-right: 1px solid rgb(0, 0, 154);
 }
-
 nav#siteNav a:hover {
-	background-color: rgb(0,0,154);
-    display: block;
+	background-color: rgb(0, 0, 154);
+	display: block;
 	height: 21px;
 	line-height: 21px;
-    text-decoration: none;
-    color: white;
+	text-decoration: none;
+	color: white;
 }
-
 /* image styles */
 
 img {
@@ -83,7 +70,6 @@ img#coach {
 	width: 14%;
 	float: right;
 }
-
 /* section styles */
 
 section {
@@ -92,21 +78,19 @@ section {
 	margin: auto;
 	background-color: transparent;
 }
-
-section#main  {
+section#main {
 	font-family: Times, serif;
 	width: 100%;
 	margin: auto;
-	background-color: rgba(133,193,233,0.7);
+	background-color: rgba(133, 193, 233, 0.7);
 }
-
 section#table {
 	float: left;
 	width: 70%;
 	height: 600px;
 	font-family: Times, serif;
 	margin: auto;
-	background-color: rgba(133,193,233,0.7);
+	background-color: rgba(133, 193, 233, 0.7);
 }
 section#form {
 	float: right;
@@ -116,48 +100,41 @@ section#form {
 	margin: auto;
 	background-color: lightBlue;
 }
-
 article {
 	font-family: Times, serif;
 }
-
 article#tableInfo p {
 	display: block;
 	width: 100%;
 }
-
 /* footer styles */
 
 footer {
 	line-height: 40px;
 	margin: auto;
 	height: 40px;
-	background-color: rgb(0,0,154);
+	background-color: rgb(0, 0, 154);
 	color: white;
 	text-align: center;
 	width: 100%;
 }
-
-footer > a {
+footer>a {
 	text-decoration: none;
 	color: lightBlue;
 }
-
 div::after {
 	clear: both;
 	content: "";
 	float: left;
 }
-
 /* content styles */
 
 p {
 	margin-left: 5px;
 	position: relative;
-	display: block;	
+	display: block;
 	width: 50%;
 }
-
 h2 {
 	letter-spacing: .25em;
 	font-family: Times, serif;
@@ -166,110 +143,93 @@ h2 {
 	margin-right: auto;
 	width: 75%;
 	text-align: center;
-	background-image: radial-gradient(circle closest-corner at 50% 50%, #3F48CC 30%, rgb(0,0,154) 101%)
+	background-image: radial-gradient(circle closest-corner at 50% 50%, #3F48CC 30%, rgb(0, 0, 154) 101%)
 }
-
-section#table > h2 {
+section#table>h2 {
 	color: white;
 	margin-left: auto;
 	margin-right: auto;
 	width: 75%;
 	text-align: center;
-	background-image: radial-gradient(circle closest-corner at 50% 50%, #3F48CC 30%, rgb(0,0,154) 101%)
+	background-image: radial-gradient(circle closest-corner at 50% 50%, #3F48CC 30%, rgb(0, 0, 154) 101%)
 }
-
-section#form > h5 {
+section#form>h5 {
 	letter-spacing: .20em;
 	color: white;
 	margin-left: auto;
 	margin-right: auto;
 	width: 75%;
 	text-align: center;
-	background-image: radial-gradient(circle closest-corner at 50% 50%, #3F48CC 30%, rgb(0,0,154) 101%)
+	background-image: radial-gradient(circle closest-corner at 50% 50%, #3F48CC 30%, rgb(0, 0, 154) 101%)
 }
-
 h2#welcome {
 	color: white;
 	margin-left: auto;
 	margin-right: auto;
 	width: 75%;
 	text-align: center;
-	background-image: radial-gradient(circle closest-corner at 50% 50%, #3F48CC 50%, rgb(0,0,154) 125%)
- }
- 
+	background-image: radial-gradient(circle closest-corner at 50% 50%, #3F48CC 50%, rgb(0, 0, 154) 125%)
+}
 h5 {
 	text-align: center;
 	margin-left: 5px;
 }
-
 h6 {
 	margin-left: 5px;
 }
-
 /* table styles */
 
 table {
 	border: solid;
 	font-family: Times, serif;
 }
-
 table {
 	margin: auto;
 	background-color: lightBlue;
 }
-
 thead {
 	border: solid;
 	color: white;
 }
-
 td {
 	padding-left: 10px;
 	padding-right: 10px;
 	border: solid 1px;
 	font-size: 0.9em;
 }
-
 th#title {
 	border: solid 5px #3F48CC;
 	font-size: 1.2em;
 }
-
 th.day {
 	border: solid 5px black;
 }
-
 th.coach {
-	border: solid 3px rgb(0,0,154);
+	border: solid 3px rgb(0, 0, 154);
 }
 th.court {
 	border-bottom: solid 1px black;
 	border-top: solid 1px black;
 }
-
 tfoot {
 	font-size: 1.1em;
 	text-align: center;
 }
-
 /* form styles */
 
-td > a {
+td>a {
 	text-decoration: none;
 	color: lightBlue;
 }
-
 input, select, textarea {
 	clear: both;
-    display: block;
-    float: left;
-    margin: 5px 20px;
-    width: 200px;
+	display: block;
+	float: left;
+	margin: 5px 20px;
+	width: 200px;
 	font-family: Times, sans-serif;
 	font-size: 1em;
-	
 }
-
 /* column content styles */
 
 div#column1 {
@@ -279,7 +239,6 @@ div#column1 {
 	overflow-y: scroll;
 	margin: 10px;
 }
-
 div#column2 {
 	border: solid 2px black;
 	font-size: 0.8em;
@@ -290,10 +249,9 @@ div#column2 {
 	margin-left: auto;
 	margin-right: auto;
 }
-
 /* Horizontal images style */
 
-div#imageLayout > img {
+div#imageLayout>img {
 	float: left;
 	display: block;
 	margin-left: auto;
