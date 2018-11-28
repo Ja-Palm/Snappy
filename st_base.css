@@ -21,7 +21,7 @@ body {
 	font-family: Verdana, Geneva, sans-serif;
 	margin-left: auto;
 	margin-right: auto;
-	background-color: rgba(133,193,233,0.7)
+	background-color: transparent;
 }
 
 header {
@@ -97,7 +97,7 @@ section#main  {
 	font-family: Times, serif;
 	width: 100%;
 	margin: auto;
-	background-color: transparent;
+	background-color: rgba(133,193,233,0.7);
 }
 
 section#table {
@@ -106,7 +106,7 @@ section#table {
 	height: 600px;
 	font-family: Times, serif;
 	margin: auto;
-	background-color: transparent;
+	background-color: rgba(133,193,233,0.7);
 }
 section#form {
 	float: right;
