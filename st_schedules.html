@@ -3,16 +3,17 @@
 
 <head><style>body {	background-color: SkyBlue;}header {	Background-color: Lightblue;}</style>
 
-<!---
+<!--
 Author: Jackson Palmer
 Date: 10/2/18
 Assignment: BoC1
---->
+-->
 
 	<title>Snappy Tennis &#124; Schedules</title>
 	
 	<meta charset="utf-8">
 	<meta name="viewport" content="width-device-width, intial-scale=1">
+	<meta name="author" content="Jackson Palmer">
 	<link href="st_layout.css" rel="stylesheet" type="text/css" />
 	<link href="st_base.css" rel="stylesheet" type="text/css" />
 	
@@ -33,7 +34,198 @@ Assignment: BoC1
 		</nav>
 	</header>
 	
-	<section id="table">	  <h2>Schedules</h2>
-		<article>		<table>				</table>		</article>
-	</section>    <section id="form">	  <h5>Sign Up for a Lesson</h5>	</section>    
+	<section id="table">	 <h2>Schedules</h2>
+	  <article>		<table id="Coach">
+       <colgroup>
+         <col id="firstCol" />
+         <col class="dataCols" span="6" />
+       </colgroup>
+       <thead>
+         <tr>
+           <th id="title" rowspan="2">Sign Up Today</th>
+           <th class="day">Mon</th>
+           <th class="day">Tue</th>
+           <th class="day">Wed</th>
+           <th class="day">Thu</th>
+		   <th class="day">Fri</th>
+		   <th class="day">Sat</th>
+         </tr>
+         <tr>
+           <th class="coach">Coach<br/>John</th>
+           <th class="coach">Coach<br/>George</th>
+           <th class="coach">Coach<br/>John</th>
+           <th class="coach">Coach<br/>George</th>
+		   <th class="coach">Coach<br/>John</th>
+		   <th class="coach">Coach<br/>George</th>
+         </tr>
+       </thead>
+       
+       <tbody>
+         
+         <tr>
+           <th class="court">Mohan Tennis Courts</th>
+           <td>3 - 5 pm</td>
+           <td>2 - 5 pm</td>
+           <td>3 - 5 pm</td>
+           <td>2 - 5 pm</td>
+		   <td>3 - 5 pm</td>
+		   <td>10 - 3 pm</td>
+         </tr>
+         
+         <tr>
+           <th class="court">KSS Tennis Courts</th>
+           <td>3 - 5 pm</td>
+           <td>2 - 5 pm</td>
+           <td>3 - 5 pm</td>
+           <td>2 - 5 pm</td>
+		   <td>3 - 5 pm</td>
+		   <td>10 - 3 pm</td>
+         </tr>
+         
+         <tr>
+		   <th class="court">Oly Tennis Courts</th>
+           <td>3 - 5 pm</td>
+           <td>2 - 5 pm</td>
+           <td>3 - 5 pm</td>
+           <td>2 - 5 pm</td>
+		   <td>3 - 5 pm</td>
+		   <td>10 - 3 pm</td>
+         </tr>
+         
+         <tr>
+		   <th class="court">Mohan Tennis Courts</th>
+           <td>3 - 5 pm</td>
+           <td>2 - 5 pm</td>
+           <td>3 - 5 pm</td>
+           <td>2 - 5 pm</td>
+		   <td>3 - 5 pm</td>
+		   <td>10 - 3 pm</td>
+         </tr>
+         
+         <tr>
+		   <th class="court">KSS Tennis Courts</th>
+           <td>3 - 5 pm</td>
+           <td>2 - 5 pm</td>
+           <td>3 - 5 pm</td>
+           <td>2 - 5 pm</td>
+		   <td>3 - 5 pm</td>
+		   <td>10 - 3 pm</td>
+         </tr>
+		 
+		 <tr>
+		   <th class="court">Oly Tennis Courts</th>
+           <td>3 - 5 pm</td>
+           <td>2 - 5 pm</td>
+           <td>3 - 5 pm</td>
+           <td>2 - 5 pm</td>
+		   <td>3 - 5 pm</td>
+		   <td>10 - 3 pm</td>
+         </tr>
+		 
+		
+       </tbody>
+	   <tfoot>
+         <tr>
+           <td colspan="7">More Information <a href="st_courts.html"><i>here</i></a></td>
+         </tr>
+       </tfoot>
+     </table>
+	 <div id="column2">
+		<strong>Lessons</strong>
+		<p>Every Weekday the Courts
+		close at 5. lessons go from 2 or 3 to
+		5 depending on the day</p>
+		<strong>Open Courts</strong>
+		<p> Saturday is open court all
+		day, come when you want and leave when you want, after 3 pm is 
+		clean-up.</p>
+		<p>Any extra tennis balls brought from home that have 
+		not been picked up before 3:30 may get stolen. everyone is 
+		off the courts after 3:30 and stray tennis balls are left 
+		where they're at.</p>		</div>
+		<div id="imageLayout">
+		<img src="st_court1.png" alt="Court1">
+		<img src="st_court2.png" alt="Court2">
+		<img src="st_court3.png" alt="Court3">		
+		</div>
+	 </article>
+	</section>    <section id="form">	  <h5>Sign Up for a Lesson</h5>
+	  
+	  <div id="column1">
+	  This is where you can Sign up Please enter your Name, Last Name
+	  Address, E-mail, Phone Number, and the Coach you would like to 
+	  have a lesson with. We ask that you give your first and last name 
+	  so that the coach can have you entered in their attendance list 
+	  as soon as you sign up we ask for your address so that we can mail
+	  you the schedule if you lose your schedule you can always look at 
+	  our on-line table and under your coaches name that you can choose
+	  below we ask for your E-mail and Phone Number in case we need to
+	  contact you about upcoming events. You can choose your Coach based
+	  on availability if your schedule does not work out with ours please 
+	  contact us, and we can form an arrangement. All fields below are 
+	  required, please check to make sure all information is correct 
+	  before you submit. Thank you and were looking forward to seeing you
+	  on the courts.
+	  </div>
+	  
+	  <form action="http://www.example.com/st/sign-up" method="post">
+       <div>
+         <label for="fnBox">First Name</label>
+         <input type="text" id="fnBox" name="firstName" placeholder="" required />
+       </div>
+       <div>
+         <label for="lnBox">Last Name</label>
+         <input type="text" id="lnBox" name="lastName" placeholder="" required />
+       </div>
+       <div>
+         <label for="addBox">Address</label>
+         <textarea id="addBox" name="address" placeholder="" required ></textarea>
+       </div>
+       <div>
+         <label for="mailBox">E-mail</label>
+         <input type="email" id="mailBox" name="email" placeholder="" required />
+       </div>
+       <div>
+         <label for="phoneBox">Phone Number</label>
+         <input type="tel" id="phoneBox" name="phoneNumber" placeholder="(nnn) nnn-nnnn" pattern="^\d{10}$|^(\(\d{3}\)\s*)?\d{3}[\s-]?\d{4}$" required />
+       </div>
+	   <div>
+         <label for="coachBox">Coach</label>
+         <select id="coachBox" name="coach" required >
+		   <option value="">Coach John - Mon, Wed, Fri</option>
+		   <option value="">Coach George - Tue, Thu, Sat</option>
+		 </select>
+       </div>
+       <div>
+         <datalist id="titleList">
+           <option value="Child">
+           <option value="Adult">
+           <option value="Senior">
+         </datalist>
+       </div>
+       <div>
+         <select name="lessonType" id="lesList">
+		   <option value="">Child 2 weeks ($19.99)</option>
+		   <option value="">Child 3 weeks ($29.99)</option>
+           <option value="">Senior 2 weeks ($39.99)</option>
+           <option value="">Senior 3 weeks ($49.99)</option>
+		   <option value="">Adult 2 weeks ($59.99)</option>
+           <option value="">Adult 3 weeks ($69.99)</option>
+         </select>
+       </div>
+       <p>
+         <input type="submit" value="Sign Up"/>
+       </p>
+     </form>
+	  
+	  
+	  
+	  
+	  
+	  	</section>    
+	<section id="main">
+	<footer>
+	Snappy Tennis &#124; <i>Contact Us:</i> (nnn)-nnn-nnnn &#124; <i>E-mail Us:</i> <a href="mailto:JacksonPalmer@student.olympic.edu">JacksonPalmer@student.olympic.edu</a>
+	</footer>
+	</section>
 		  
